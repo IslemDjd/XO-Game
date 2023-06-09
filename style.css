@@ -1,0 +1,118 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face{
+    font-family: 'myFont';
+    src: url(Font/Marcellus-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    
+}
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: #6f0000;
+}
+
+.frame{
+    width: 40%;
+    margin: 0px auto;    
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+.screen{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+.twoP{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+.game{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 8px;
+    background-color: transparent;
+}
+
+.btn{
+    height: 150px;
+    background-color: white;
+    color: #140814;
+    font-size: 100px;
+    font-weight: 900;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.btn:hover{
+    background-color: #cc9e9e;
+}
+
+.creator pre{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+#islemDj{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: hsl(76, 100%, 72%);
+}
+
+@media screen and (max-width: 500px){
+    body{
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #200122, #6f0000);
+        background-repeat: no-repeat;
+        scrollbar-color: inherit;
+    }
+
+    .frame{
+        width: 90%;
+        margin: 40px auto;    
+    }
+    .btn{
+        height: 130px;
+    }
+    
+}
