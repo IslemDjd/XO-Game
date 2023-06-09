@@ -97,7 +97,7 @@ h3{
     color: hsl(76, 100%, 72%);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (min-width: 370px) and (max-width: 500px){
     body{
         box-sizing: border-box;
         width: 100vw;
@@ -107,12 +107,54 @@ h3{
         scrollbar-color: inherit;
     }
 
+    .header{
+        font-size: 25px;
+    }
+
     .frame{
         width: 90%;
         margin: 40px auto;    
     }
     .btn{
         height: 130px;
+    }
+    
+}
+@media screen and (max-width: 370px){
+    body{
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #200122, #6f0000);
+        background-repeat: no-repeat;
+        scrollbar-color: inherit;
+    }
+
+    .header{
+        font-size: 20px;
+    }
+
+    .frame{
+        width: 90%;
+        margin: 40px auto;    
+    }
+    .btn{
+        height: 100px;
+        font-size: 70px;
+    }
+    .screen{
+        font-size: 20px;
+
+    }
+    .twoP{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    #islemDj{
+        font-size: 15px;
     }
     
 }
