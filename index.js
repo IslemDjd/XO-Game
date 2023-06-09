@@ -98,17 +98,17 @@ function nextGame(){
     document.getElementById("twoP").style.height = "50px";
     document.getElementById("twoP").style.fontSize = "20px";
     document.getElementById("twoP").style.color = "hsl(76, 100%, 72%)";
-    document.getElementById("twoP").innerHTML = "The Next Game Will Begin";
+    document.getElementById("twoP").innerHTML = "The Next Game Will Begin in ";
     setTimeout(function(){
-        document.getElementById("twoP").innerHTML = "The Next Game Will Begin 3";
+        document.getElementById("twoP").innerHTML = "The Next Game Will Begin in 3";
     }, 0);
 
     setTimeout(function(){
-        document.getElementById("twoP").innerHTML = "The Next Game Will Begin 2";
+        document.getElementById("twoP").innerHTML = "The Next Game Will Begin in 2";
     }, 1000);
 
     setTimeout(function(){
-        document.getElementById("twoP").innerHTML = "The Next Game Will Begin 1";
+        document.getElementById("twoP").innerHTML = "The Next Game Will Begin in 1";
     }, 2000);
 
     setTimeout(function(){
