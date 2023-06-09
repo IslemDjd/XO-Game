@@ -106,6 +106,10 @@ h3{
         background-repeat: no-repeat;
         scrollbar-color: inherit;
     }
+    
+    .header{
+        font-size: 25px;
+    }
 
     .frame{
         width: 90%;
