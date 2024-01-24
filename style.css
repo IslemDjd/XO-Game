@@ -17,7 +17,10 @@ body{
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
-    background-color: #6f0000;
+    /* background-color: #6f0000; */
+    background-image: linear-gradient(to bottom, #200122, #6f0000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .frame{
